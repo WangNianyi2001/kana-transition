@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
 	root: 'src',
-	base: '/',
+	base: '/kana-transition/build',
 	build: {
 		emptyOutDir: true,
 		outDir: '../build',
